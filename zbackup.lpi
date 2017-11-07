@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="zbackup.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -45,6 +45,11 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UMainF"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="src\uformsettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UFormSettings"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

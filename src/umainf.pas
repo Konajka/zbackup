@@ -1,3 +1,8 @@
+{
+  Application main form.
+
+  @author(Tomáš Borek <tomas.borek@post.cz>)
+}
 unit UMainF;
 
 {$mode objfpc}{$H+}
@@ -12,9 +17,8 @@ type
   { TMainForm }
 
   TMainForm = class(TForm)
-  private
-    { private declarations }
   public
+    { Customizes form when created. }
     constructor Create(AOwner: TComponent); override;
   end;
 
